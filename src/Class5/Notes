@@ -12,7 +12,7 @@ Preferred approach for selecting multiple checkboxes:
 Inspect them in the DOM.
 Write the locator in such a way that it is able to select all the required checkboxes.
 Use findElements to get all those checkboxes.
-Iterate through the list.
+Iterate through the list.(loop)
 While iterating, look for your desired checkbox (inspect the DOM to see which information provides you the indication that this is your desired checkbox).
 Use an if statement to make the selection.
 ..............................................Drop Down.....................................................

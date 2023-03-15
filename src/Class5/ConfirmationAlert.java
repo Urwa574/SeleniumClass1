@@ -21,14 +21,16 @@ public class ConfirmationAlert {
        //2nd by me
       driver.findElement(By.xpath("//button[contains(@onclick,'myConfirmFunction()')]")).click();
       alert.accept();
-      Thread.sleep(2000);
+        Thread.sleep(2000);
+       // alert.dismiss(); means cancel
+
        //3rd alert
         driver.findElement(By.xpath("//button[@onclick='myPromptFunction()']")).click();
-        //switch the focus to alert
-        alert.sendKeys("aajhkdfj");
+//        //switch the focus to alert
+      alert.sendKeys("aajhkdfj");
         Thread.sleep(2000);
-        //accept it
-        alert.accept();
+//        //accept it
+       alert.accept();
 
     }
 }

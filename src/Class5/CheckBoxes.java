@@ -9,6 +9,7 @@ import java.util.List;
 
 public class CheckBoxes {
     public static void main(String[] args) {
+        //already did homework task2
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         //initiate the instance of webDriver
         WebDriver driver = new ChromeDriver();
@@ -17,7 +18,7 @@ public class CheckBoxes {
         //for loop
 
 //iterate through the list
-        for (int i=0;i<checkBoxes.size();i++){
+        for (int i=0;i<checkBoxes.size();i++){ //we can use enhance loop as well
 
             String value = checkBoxes.get(i).getAttribute("value");
 //                check if this is the desired one
