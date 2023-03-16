@@ -26,8 +26,6 @@ always hv implcit wait in start , it is a good practice
 FLuent wait---> will be taught in interview preperations
 
 
-
-
 tables  can be accessed in three levels
 
 1.table level access--> thw whole table will be printed (in a single string)
@@ -35,7 +33,6 @@ tables  can be accessed in three levels
 2.Row level access -->all the rows of the table will be individually printed
 
 3.Column level access- --> all the columns of table will be printed individually
-
 
 what is the major difference in all the access levels in coding?
 the major difference is  the Xpath

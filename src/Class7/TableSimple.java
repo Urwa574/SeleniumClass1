@@ -40,5 +40,9 @@ public class TableSimple {
             System.out.println(Fcolumn.getText());
         }
         //task5:get the 3rd row
+        List<WebElement> thirdRow=driver.findElements(By.xpath("//table[@id='customers']/tbody/tr/td[3]"));
+        for (WebElement webElement : thirdRow) {
+            System.out.println(webElement.getText());
+        }
     }
 }
